@@ -1,3 +1,6 @@
+#Firebase Folder
+.firebase/
+
 # dotenv environment variable files
 .env
 
