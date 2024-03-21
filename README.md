@@ -1,64 +1,83 @@
 <div align="center">
   <br />
-      <img src="https://i.ibb.co/Kqdv8j1/Image-from.png" alt="Project Banner">
+      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
   <br />
 </div>
 
-# Brainwave - Modern UI/UX website
+# 3D Developer Portfolio
 
-Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.
+Welcome to my 3D Developer Portfolio Website! This project is a showcase of my skills, work experience and projects, combining the power of React, Tailwind CSS, Three.js, and Framer Motion to create an immersive and visually appealing experience.
 
 ## Tech Stack
 
-- Vite
 - React.js
+- Three.js
+- React Three Fiber
+- React Three Drei
+- Email JS
+- Vite
 - Tailwind CSS
 
 
 ## Features
 
-**Beautiful Sections**: Includes hero, services, features, how to use, roadmap, pricing, footer, and header.
+**Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
 
-**Parallax Animations**: Engaging effects triggered by mouse movement and scrolling.
+**Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
 
-**Complex UI Geometry**: Utilizes tailwindcss for intricate shapes like circular feature displays, grid lines, and side lines.
+**3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
 
-**Latest UI Trends**: Incorporates modern design elements such as bento grids.
+**Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
 
-**Cool Gradients**: Enhances visuals with stylish gradients using Tailwind CSS for cards, buttons, etc.
+**Contact Section with 3D Earth Model**: Integrates a 3D earth model with email functionality powered by emailjs.
 
-**Responsive**: Ensures seamless functionality and aesthetics across all devices.
+**3D Stars**: Generate stars progressively at random positions using Three.js for background display.
 
-And many more, including code architecture and reusability.
+**Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
+
+**Responsive Design**: Ensures optimal display and functionality across all devices.
+
+and many more, including code architecture and reusability 
 
 ## Hosted Application
-You can access the hosted application at https://darshakjani8101.github.io/Brainwave_UI_UX/ or https://brainwave-ui-ux-design.web.app/
+You can access the hosted application at https://darshak-jani.web.app
 
 ## Local Setup
 
 ### 1. Clone the repository:
 
 ```bash
-git clone https://github.com/darshakjani8101/Brainwave_UI_UX.git
+git clone https://github.com/darshakjani8101/3D_Developer_Portfolio.git
 ```
 
 ### 2. Install dependencies:
 
 ```bash
 # Navigate to the root directory
-cd Brainwave_UI_UX
-npm install
+cd 3D_Developer_Portfolio
+
+# Install dependencies while ignoring peer dependency warnings
+npm install --legacy-peer-deps
 ```
 
-### 3. Run the application:
+### 3. Set up environment variables:
+Create a .env file in the root directory and add the following variables:
+
+```bash
+VITE_APP_EMAILJS_SERVICE_ID=your_emailjs_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_emailjs_public_key
+```
+
+### 4. Run the application:
 
 ```bash
 # Start the server
 npm run dev
 ```
 
-### 4. Access the application:
-Open your web browser and visit http://localhost:5173 to access the Brainwave - Modern UI/UX website.
+### 5. Access the application:
+Open your web browser and visit http://localhost:5173 to access the 3D Portfolio website.
 
 ## Contributors
 ### Darshak Jani
