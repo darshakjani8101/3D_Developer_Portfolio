@@ -1,6 +1,9 @@
 #Firebase folder
 .firebase/
 
+#Visual Studio folder
+.vs/
+
 # dotenv environment variable files
 .env
 
